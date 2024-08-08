@@ -4,4 +4,4 @@ We see three critical differences between programming and software engineering: 
 
 ##Compreensão do texto
 Em projetos de engenhariade software,é necessário se importar com o tempo e saber modificá-lo caso seja a situação do projeto. Além disso, deve-se considerar a escala (dimensão) do projeto e a eficiência para a realização do mesmo.
-Em situações em que não se tem precisão no tempo e no crescimento do projeto, e necessário tomar decisões de alto risco
+Em situações em que não se tem precisão no tempo e no crescimento do projeto, e necessário tomar decisões de alto risco, ou seja, decisões de perda e ganho. As tecnologias possuem vantagens e desvantagens e, cabe ao engenheiro de software saber escolher e saber bem sobre essas tecnologias.
