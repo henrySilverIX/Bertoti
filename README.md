@@ -12,5 +12,6 @@ As tecnologias possuem vantagens e desvantagens e, cabe ao engenheiro de softwar
 
 Embora a programação faça parte do trabalho do engenheiro de software, há muitos outros aspectos do trabalho do engenheiro que precisa ser considerado como a manutenção e a modificação que devem ser dadas a um determinado projeto. Não se trata apenas de criar, mas sim de manter o seu trabalho funcionando ao longo do tempo.
 
+## Exemplos de higher-stakes
 Falando um pouco mais sobre os higher-stakes e em requisitos não funcionais, podemos pensar no uso de sistemas operacionais como o Windows e o Linux. Enquanto o Windows possui uma usuabilidade melhor sendo mais friendly user, o linux é melhor para segurança, customização e estabilidade.
 Quando se esta desenvolvendo aplicativos e softwares, as linguagens de programação também possuem essa relação de ganho e perda. Enquanto Python é uma linguagem pensada em ser mais fácil, seu processamento é mais lento justamente por ser uma linguagem de alto nível. Entratetanto, o mesmo não acontece e C ou C++ que são linguagens de baixo nível. Nessas, o processamento é mais rápido mas a implementação é mais complicada
