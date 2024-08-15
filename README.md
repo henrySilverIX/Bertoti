@@ -14,4 +14,5 @@ Embora a programação faça parte do trabalho do engenheiro de software, há mu
 
 ## Exemplos de higher-stakes
 Falando um pouco mais sobre os higher-stakes e requisitos não funcionais, podemos pensar no uso de sistemas operacionais como o Windows e o Linux. Enquanto o Windows possui uma usuabilidade melhor sendo mais "amigável" ao usuário, ele não é muito seguro, pois existem muitos ataques a esse SO, o que exige do Windows constante atualizações. O linux por outro lado é melhor para segurança, customização e estabilidade. Entretanto, o Linux pode ser mais complicado para o usuário comum.
+
 Quando se esta desenvolvendo aplicativos e softwares, as linguagens de programação também possuem essa relação de ganho e perda. Enquanto Python é uma linguagem pensada em ser mais fácil, seu processamento é mais lento justamente por ser uma linguagem de alto nível. Entratetanto, o mesmo não acontece e C que é uma linguagem de baixo nível. Nessa linguagem, o processamento é mais rápido mas a implementação é mais complicada e é necessário fazer um programa diferente para cada hardware, o que acaba sendo um trabalho mais custoso.
