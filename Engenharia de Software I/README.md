@@ -23,4 +23,7 @@ Quando se esta desenvolvendo aplicativos e softwares, as linguagens de programa�
 ### Carro vs Moto
 É possível pensar também em exemplos mecânicos como um carro e uma moto, por exemplo. Uma moto é mais econômica em aspectos de manutenção, mais barata para se adquirir e é mais ágil, principalmente em engarrafamentos. Já um carro é mais caro para se adquirir, mais custoso para se manter e sofre mais em engarramentos. Entretanto, ele é mais confortável, é mais seguro e possui mais espaço para transporte de objetos e pessoas, vantagens essas que uma moto não possui, devido a seu tamanho.
 
+## Sistemas Reais - Arquitetura de Funcionamento da Netflix
 
+A arquitetura da Netflix é extremamente complexa devido a sua necessidade de escalabilidade. Entretanto, essa complexidade acaba por ser prejudicial devido ao fato de que eles precisam de muitas ferramentas que exigem profissionais altamente capacitados para fazer a manutenção de todo esse sistema. 
+Além disso, caso ocorra um problema, será mais difícil de identificá-lo.
