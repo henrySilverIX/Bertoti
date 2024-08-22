@@ -27,3 +27,9 @@ Quando se esta desenvolvendo aplicativos e softwares, as linguagens de programa�
 
 A arquitetura da Netflix é extremamente complexa devido a sua necessidade de escalabilidade. Entretanto, essa complexidade acaba por ser prejudicial devido ao fato de que eles precisam de muitas ferramentas que exigem profissionais altamente capacitados para fazer a manutenção de todo esse sistema. 
 Além disso, caso ocorra um problema, será mais difícil de identificá-lo.
+
+Alguns dos sistemas utilizados na arquitetura da Netflix:
+
+##Cassandra e MySQL
+Cassandra é um sistema de banco de dados, bem como o MySQL. Cassandra possui escalabilidade, o que se torna útil para a arquitetura da Netflix. Ele é tolerante a falhas e é distribuído, ou seja, não há um "ponto" principal, pois todos os pontos podem atender aos requisitos do usuário. Além disso, a replicação em vários data centers é suportada. Entretanto, Cassandra possui algumas desvantagens como o fato de ele ser otimizado para  consultas simples e não para as mais complexas que exigem junções e agregações.
+Já o tão conhecido MySQL possui também algumas vantagens em seu uso, como por exemplo, a escalabilidade, open source (código aberto) e alta performance, por ser considerado um sistema muito rápido. Contudo, ele possui certas desvantagens como problemas de estabilidade e uma performance ruim quanto ele precisa trabalhar com um alto volume de dados.
