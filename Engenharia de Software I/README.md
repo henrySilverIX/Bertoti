@@ -50,12 +50,13 @@ Já o tão conhecido MySQL possui também algumas vantagens em seu uso, como por
   </tr>
   <tr>
     <td>
-    + getNome():String nome <br>
-    + setNome(String n):void <br>
-    + getIdade():int idade <br>
-    + setIdade(int age):void <br>
-    + getRA():int ra <br>
-    + setRA(int ra):void <br>
+      + getNome():String nome <br>
+      + setNome(String n):void <br>
+      + getIdade():int idade <br>
+      + setIdade(int age):void <br>
+      + getRA():int ra <br>
+      + setRA(int ra):void <br>
+      + doarLivro(int quantidade): int <br>
     </td>
   </tr>
 </table>
@@ -77,16 +78,14 @@ Já o tão conhecido MySQL possui também algumas vantagens em seu uso, como por
   </tr>
   <tr>
     <td>
-    + getNomeLivro():String nome <br>
-    + setNomeLivro(String n):void <br>
-    + getGenero():String genre <br>
-    + setGenero(String gen):void <br>
-    + getRegistro():int registro <br>
-    + setGenero(int reg):void <br>
-    + emprestar(Aluno aluno1, int periodo):void <br>
-    + adicionarLivro():void <br>
-    + doarLivro(Aluno aluno1): void <br>
-    + adicionarQuantidadeLivro(int add): void
+      + getNomeLivro():String nome <br>
+      + setNomeLivro(String n):void <br>
+      + getGenero():String genre <br>
+      + setGenero(String gen):void <br>
+      + getRegistro():int registro <br>
+      + setGenero(int reg):void <br>
+      + emprestar(Aluno aluno1, int periodo):void <br>
+      + adicionarLivro(int Aluno.doarLivro()):void <br>
     </td>
   </tr>
 </table>
