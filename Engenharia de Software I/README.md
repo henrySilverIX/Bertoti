@@ -43,9 +43,9 @@ Já o tão conhecido MySQL possui também algumas vantagens em seu uso, como por
   </tr>
   <tr>
     <td>
-      -nome: String <br>
-      -idade: int <br>
-      -ra: int
+      - nome: String <br>
+      - idade: int <br>
+      - ra: int
     </td>
   </tr>
   <tr>
@@ -68,10 +68,11 @@ Já o tão conhecido MySQL possui também algumas vantagens em seu uso, como por
   </tr>
   <tr>
     <td>
-      -nomeLivro: String <br>
-      -genero: String <br>
-      -registroDoLivro: int <br>
-      -quantidadeDeLivros: int <br>
+      - nomeLivro: String <br>
+      - genero: String <br>
+      - registroDoLivro: int <br>
+      - quantidadeDeLivros: int <br>
+      - periodoDeEmprestimo: int <br>
     </td>
   </tr>
   <tr>
@@ -80,8 +81,12 @@ Já o tão conhecido MySQL possui também algumas vantagens em seu uso, como por
     + setNomeLivro(String n):void <br>
     + getGenero():String genre <br>
     + setGenero(String gen):void <br>
-    + emprestar():void <br>
+    + getRegistro():int registro <br>
+    + setGenero(int reg):void <br>
+    + emprestar(Aluno aluno1, int periodo):void <br>
     + adicionarLivro():void <br>
+    + doarLivro(Aluno aluno1): void <br>
+    + adicionarQuantidadeLivro(int add): void
     </td>
   </tr>
 </table>
