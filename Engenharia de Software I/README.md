@@ -97,25 +97,19 @@ Já o tão conhecido MySQL possui também algumas vantagens em seu uso, como por
 ### Main
 public class Main {
     public static void main(String[] args) {
-
         Aluno aluno_1 = new Aluno();
         Aluno aluno_2 = new Aluno();
         Aluno aluno_3 = new Aluno();
-
         Biblioteca fonomag = new Biblioteca();
-
         System.out.println("Bem-vindo a nossa biblioteca!! Qual livro você deseja emprestar ou doar?");
-
         aluno_1.setNome("Carla");
         aluno_1.setIdade(24);
         aluno_1.setRa(1674816352);
         System.out.println("O nome da primeira aluno é: " + aluno_1.getNome());
-
         aluno_2.setNome("Maria");
         aluno_2.setIdade(18);
         aluno_2.setRa(1346678464);
         System.out.println("O nome da segunda aluno é: " + aluno_2.getNome());
-
         aluno_3.setNome("Henrique");
         aluno_3.setIdade(20);
         aluno_3.setRa(1796813464);
@@ -123,6 +117,7 @@ public class Main {
     }
 
     ### Aluno.java
+    
     public class Aluno {
     private String nome;
     private int idade;
