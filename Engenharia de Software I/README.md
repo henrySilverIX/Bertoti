@@ -41,12 +41,17 @@ Já o tão conhecido MySQL possui também algumas vantagens em seu uso, como por
   <tr>
     <td>Classe: Aluno</td>
   </tr>
-    <tr>
-    <td>-nome</td>
-    <td>-idade</td>
+  <tr>
+    <td>
+      -nome: String
+      -idade: int
+      -ra: int
+    </td>
   </tr>
   <tr>
-    <td>+ getNome():String nome </td>
-    <td>+ setNome(String n):void </td>
+    <td>
+    + getNome():String nome 
+    + setNome(String n):void
+    </td>
   </tr>
 </table>
