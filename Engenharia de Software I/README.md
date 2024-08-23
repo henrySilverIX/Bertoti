@@ -91,3 +91,117 @@ Já o tão conhecido MySQL possui também algumas vantagens em seu uso, como por
     </td>
   </tr>
 </table>
+
+## Código em Java
+
+### Main
+public class Main {
+    public static void main(String[] args) {
+
+        Aluno aluno_1 = new Aluno();
+        Aluno aluno_2 = new Aluno();
+        Aluno aluno_3 = new Aluno();
+
+        Biblioteca fonomag = new Biblioteca();
+
+        System.out.println("Bem-vindo a nossa biblioteca!! Qual livro você deseja emprestar ou doar?");
+
+        aluno_1.setNome("Carla");
+        aluno_1.setIdade(24);
+        aluno_1.setRa(1674816352);
+        System.out.println("O nome da primeira aluno é: " + aluno_1.getNome());
+
+        aluno_2.setNome("Maria");
+        aluno_2.setIdade(18);
+        aluno_2.setRa(1346678464);
+        System.out.println("O nome da segunda aluno é: " + aluno_2.getNome());
+
+        aluno_3.setNome("Henrique");
+        aluno_3.setIdade(20);
+        aluno_3.setRa(1796813464);
+        System.out.println("O nome do terceiro aluno é: " + aluno_3.getNome());
+    }
+
+    ### Aluno.java
+    public class Aluno {
+    private String nome;
+    private int idade;
+    private int ra;
+
+    public String getNome(){
+        return nome;
+    }
+
+    public void setNome(String n){
+        nome = n;
+    }
+
+    public int getIdade(){
+        return idade;
+    }
+
+    public void setIdade(int age){
+        idade = age;
+    }
+
+    public int getRa(){
+        return ra;
+    }
+
+    public void setRa(int ra_number){
+        ra = ra_number;
+    }
+
+    public int doarLivro(int quantidade){
+        return quantidade;
+    }
+
+}
+
+### Biblioteca.java
+
+import java.util.List;
+import java.util.LinkedList;
+import java.time.LocalTime;
+
+public class Biblioteca {
+    private List<Aluno> alunos = new LinkedList<Aluno>();
+    private List<String> livro = new LinkedList<String>();
+    private String nomeLivro;
+    private String genero;
+    private int registroDoLivro;
+    private int quantidadeDeLivros;
+    private int periodoDeEmprestimo;
+    private LocalTime today = LocalTime.now();
+
+
+    public String getNomeLivro(){
+        return nomeLivro;
+    }
+    public void setNomeLivro(String nome_livro){
+        nomeLivro = nome_livro;
+    }
+
+    public String getGenero(){
+        return genero;
+    }
+    public void setGenero(String genre){
+        genero = genre;
+    }
+
+    public int getRegistroDoLivro(){
+        return registroDoLivro;
+    }
+
+    public void setRegistroDoLivro(int reg){
+        registroDoLivro = reg;
+    }
+
+    public void emprestar(Aluno aluno1, int periodo){
+        System.out.println(aluno1 + " emprestou o livro: " + nomeLivro);
+        System.out.println("O período de empréstimo é de: " + periodo + " dias.");
+        System.out.println("Hoje é dia: " + today);
+    }
+
+}
+
