@@ -69,6 +69,8 @@ Já o tão conhecido MySQL possui também algumas vantagens em seu uso, como por
   </tr>
   <tr>
     <td>
+      - alunos: List<Alunos> <br>
+      - livros: List<String> <br>
       - nomeLivro: String <br>
       - genero: String <br>
       - registroDoLivro: int <br>
