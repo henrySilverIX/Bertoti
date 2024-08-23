@@ -39,8 +39,14 @@ Já o tão conhecido MySQL possui também algumas vantagens em seu uso, como por
 #UML
 <table>
   <tr>
-    <td>Emil</td>
-    <td>Tobias</td>
-    <td>Linus</td>
+    <td>Classe: Aluno</td>
+  </tr>
+    <tr>
+    <td>-nome</td>
+    <td>-idade</td>
+  </tr>
+  <tr>
+    <td>+ getNome():String nome </td>
+    <td>+ setNome(String n):void </td>
   </tr>
 </table>
