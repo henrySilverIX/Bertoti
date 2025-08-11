@@ -48,8 +48,17 @@ public class ClienteAluno extends Cliente{
 }
 ```
 
-<pre>
 ```mermaid 
-classDiagram class Cliente { +String nome +String cpf +String saldo +Cliente(String _nome, String _cpf, String _saldo) +Emprestimo(float valor_emprestimo) } class ClienteAluno { +ClienteAluno(String _nome, String _cpf, String _saldo) +Emprestimo() } Cliente <|-- ClienteAluno 
+classDiagram 
+    class Cliente { 
+    +String nome 
+    +String cpf 
+    +String saldo 
+    +Cliente(String _nome, String _cpf, String _saldo) 
+    +Emprestimo(float valor_emprestimo) }
+
+    
+    class ClienteAluno { 
+    +ClienteAluno(String _nome, String _cpf, String _saldo) 
+    +Emprestimo() } Cliente <|-- ClienteAluno
 ```
-</pre>
