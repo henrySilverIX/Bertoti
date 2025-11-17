@@ -52,5 +52,5 @@ classDiagram
     }
 
     %% Relacionamentos (acoplamento forte)
-    Loja --> Cliente : notifica todos\n(acoplamento forte)
+    Loja --> Cliente : notifica todos (acoplamento forte)
 ```
