@@ -105,5 +105,5 @@ classDiagram
     MetodoDePagamento <|.. PagamentoBoleto
 
     %% Carrinho usa uma estratégia
-    Carrinho o--> MetodoDePagamento : usa
+    Carrinho *--> MetodoDePagamento : usa
 ```
