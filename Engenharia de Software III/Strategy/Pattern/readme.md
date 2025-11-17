@@ -70,3 +70,40 @@ public class Main {
 }
 
 ```
+
+```mermaid
+classDiagram
+    direction LR
+
+    %% Interface
+    class MetodoDePagamento {
+        <<interface>>
+        +pagar(valor: double) void
+    }
+
+    %% Implementações concretas
+    class PagamentoPix {
+        +pagar(valor: double) void
+    }
+    class PagamentoCartao {
+        +pagar(valor: double) void
+    }
+    class PagamentoBoleto {
+        +pagar(valor: double) void
+    }
+
+    %% Classe de contexto
+    class Carrinho {
+        -pagamento: MetodoDePagamento
+        +setMetodo(pagamento: MetodoDePagamento) void
+        +finalizarCompra(valor: double) void
+    }
+
+    %% Implementações implementam a interface
+    MetodoDePagamento <|.. PagamentoPix
+    MetodoDePagamento <|.. PagamentoCartao
+    MetodoDePagamento <|.. PagamentoBoleto
+
+    %% Carrinho usa uma estratégia
+    Carrinho --> MetodoDePagamento : usa
+```
