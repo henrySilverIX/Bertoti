@@ -30,6 +30,6 @@ classDiagram
 
     %% Relacionamentos
     Observador <|.. Usuario
-    Canal --> Observador : notifica
+    
     Canal "1" o--> "*" Usuario : mantém inscritos
 ```
