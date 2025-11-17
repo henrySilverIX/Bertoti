@@ -31,3 +31,26 @@ public class Usuario{
 }
 
 ```
+
+```mermaid
+classDiagram
+    direction LR
+
+    %% Classes
+
+    class Cliente {
+        -nome: String
+        -email: String
+        +Cliente(nome: String, email: String)
+        +receberEmail(mensagem: String) void
+    }
+
+    class Loja {
+        -clientes: List~Cliente~
+        +cadastrarCliente(cliente: Cliente) void
+        +lancarProduto(produto: String) void
+    }
+
+    %% Relacionamentos (acoplamento forte)
+    Loja --> Cliente : notifica todos\n(acoplamento forte)
+```
